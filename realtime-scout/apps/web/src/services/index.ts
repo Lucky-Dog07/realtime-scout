@@ -80,3 +80,8 @@ export const reviewApi = {
   getUserReviews: (userId: number) => api.get(`/reviews/users/${userId}`),
   getGivenReviews: () => api.get('/reviews/given'),
 };
+
+export const aiApi = {
+  suggestPrice: (data: { title: string; description: string; photo_count: number; deadline_minutes: number }) =>
+    api.post('/ai/suggest-price', data),
+};

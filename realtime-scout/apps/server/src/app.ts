@@ -11,6 +11,7 @@ import userRoutes from './routes/user.routes';
 import chatRoutes from './routes/chat.routes';
 import notificationRoutes from './routes/notification.routes';
 import reviewRoutes from './routes/review.routes';
+import aiRoutes from './routes/ai.routes';
 
 const app = express();
 
@@ -26,6 +27,7 @@ app.use('/api/v1/users', userRoutes);
 app.use('/api/v1/chat', chatRoutes);
 app.use('/api/v1/notifications', notificationRoutes);
 app.use('/api/v1/reviews', reviewRoutes);
+app.use('/api/v1/ai', aiRoutes);
 
 app.use(errorHandler);
 
