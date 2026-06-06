@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 128 128" fill="none">
+  <!-- transparent background -->
+  <g stroke="#111827" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- speech bubble outline -->
+    <path d="M34 26H94C99.523 26 104 30.477 104 36V74C104 79.523 99.523 84 94 84H58L42 96V84H34C28.477 84 24 79.523 24 74V36C24 30.477 28.477 26 34 26Z"/>
+    <!-- inner message line -->
+    <path d="M44 48H74"/>
+    <path d="M44 62H64"/>
+  </g>
+</svg>
