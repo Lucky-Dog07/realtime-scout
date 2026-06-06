@@ -1,0 +1,145 @@
+.review-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.review-counterparty {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 14px 16px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.review-counterparty-score {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.review-counterparty-score b {
+  color: #ff9500;
+  font-size: 16px;
+}
+
+.review-count {
+  color: var(--text-hint);
+  font-size: 12px;
+}
+
+.review-history-btn {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background: #fff;
+  border-radius: 14px;
+  padding: 3px 12px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.review-history-btn:hover {
+  background: var(--primary-light);
+}
+
+.review-section h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+
+.review-form {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.review-form-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.review-form-label {
+  width: 72px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.review-form-comment {
+  width: 100%;
+  min-height: 72px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+  resize: vertical;
+  outline: none;
+  font-family: inherit;
+}
+
+.review-form-comment:focus {
+  border-color: var(--primary);
+}
+
+.review-submit-btn {
+  margin-top: 12px;
+  padding: 9px 28px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.review-submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.review-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.review-modal {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 480px;
+  max-width: 90vw;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.review-modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.review-modal-head h3 {
+  font-size: 16px;
+}
+
+.review-modal-close {
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+  color: var(--text-hint);
+}

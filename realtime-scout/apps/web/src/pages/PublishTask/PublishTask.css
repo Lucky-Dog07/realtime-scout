@@ -1,0 +1,145 @@
+.publish-page {
+  display: flex;
+  height: 100%;
+  gap: 0;
+}
+
+.publish-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.publish-left h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.publish-search {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.publish-search input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.publish-search input:focus {
+  border-color: var(--primary);
+}
+
+.publish-search button {
+  padding: 10px 20px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.publish-search button:hover {
+  opacity: 0.9;
+}
+
+.publish-hint {
+  font-size: 13px;
+  color: var(--text-hint);
+  margin-bottom: 12px;
+}
+
+.publish-map {
+  flex: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 400px;
+}
+
+.selected-location {
+  margin-top: 12px;
+  padding: 10px 14px;
+  background: #e6f7ff;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #1677ff;
+}
+
+.publish-right {
+  width: 420px;
+  background: #fff;
+  border-left: 1px solid var(--border);
+  padding: 24px 28px;
+  overflow-y: auto;
+}
+
+.publish-right h2 {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.publish-right .form-field {
+  margin-bottom: 18px;
+}
+
+.publish-right .form-field label {
+  display: block;
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.publish-right .form-field input,
+.publish-right .form-field textarea,
+.publish-right .form-field select {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+  font-family: inherit;
+}
+
+.publish-right .form-field input:focus,
+.publish-right .form-field textarea:focus,
+.publish-right .form-field select:focus {
+  border-color: var(--primary);
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+}
+
+.form-row .form-field {
+  flex: 1;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}
+
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

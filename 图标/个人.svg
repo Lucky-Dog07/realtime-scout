@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 256 256" fill="none">
+  <!-- Transparent background -->
+  <g stroke="#1F5BFF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head -->
+    <circle cx="128" cy="70" r="28"/>
+    <!-- Body -->
+    <path d="M58 188
+             C58 146 90 128 128 128
+             C166 128 198 146 198 188
+             L58 188 Z"/>
+  </g>
+</svg>

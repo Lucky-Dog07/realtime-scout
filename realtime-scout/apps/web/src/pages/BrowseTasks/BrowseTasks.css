@@ -1,0 +1,112 @@
+.browse-page {
+  padding: 24px 32px;
+}
+
+.browse-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.browse-header h2 {
+  font-size: 20px;
+}
+
+.browse-filters {
+  display: flex;
+  gap: 12px;
+}
+
+.filter-select {
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 13px;
+  outline: none;
+}
+
+.refresh-btn {
+  padding: 6px 16px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.browse-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.browse-empty {
+  text-align: center;
+  padding: 60px;
+  color: var(--text-hint);
+}
+
+.browse-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 20px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.browse-card:hover {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.browse-card-left {
+  flex: 1;
+}
+
+.browse-card-left h3 {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.browse-card-desc {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.browse-card-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+  color: var(--text-hint);
+}
+
+.browse-card-right {
+  text-align: center;
+  margin-left: 24px;
+}
+
+.browse-card-reward {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ff4d4f;
+  margin-bottom: 8px;
+}
+
+.browse-card-btn {
+  padding: 6px 20px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}

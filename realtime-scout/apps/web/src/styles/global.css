@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+:root {
+  --primary: #1677ff;
+  --primary-light: #e6f4ff;
+  --danger: #ff4d4f;
+  --warning: #ff8f1f;
+  --success: #00b578;
+  --text: #333;
+  --text-secondary: #666;
+  --text-hint: #999;
+  --border: #e8e8e8;
+  --bg-white: #fff;
+  --sidebar-width: 220px;
+  --header-height: 64px;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 3px;
+}

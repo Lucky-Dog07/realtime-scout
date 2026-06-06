@@ -1,0 +1,98 @@
+.messages-page {
+  padding: 24px 32px;
+  max-width: 800px;
+}
+
+.messages-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.messages-header h2 {
+  font-size: 20px;
+}
+
+.mark-all-btn {
+  padding: 6px 16px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.mark-all-btn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.messages-empty {
+  text-align: center;
+  padding: 60px 0;
+  color: var(--text-hint);
+}
+
+.messages-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 12px;
+  border-bottom: 1px solid #f5f5f5;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.message-item:hover {
+  background: #f9f9f9;
+}
+
+.message-item.unread {
+  background: #f0f7ff;
+}
+
+.message-item.unread:hover {
+  background: #e6f0fa;
+}
+
+.message-dot {
+  width: 8px;
+  padding-top: 6px;
+  flex-shrink: 0;
+}
+
+.message-dot span {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ff4d4f;
+}
+
+.message-body {
+  flex: 1;
+}
+
+.message-title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.message-content {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+.message-time {
+  font-size: 12px;
+  color: var(--text-hint);
+}

@@ -1,0 +1,273 @@
+.wallet-page {
+  padding: 24px 32px;
+  max-width: 900px;
+}
+
+.wallet-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+
+.wallet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.wallet-header h3 {
+  font-size: 16px;
+}
+
+.topup-btn {
+  padding: 6px 20px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.wallet-amounts {
+  display: flex;
+  gap: 40px;
+}
+
+.wallet-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ff8f1f;
+}
+
+.wallet-value.frozen {
+  color: var(--text-hint);
+}
+
+.wallet-label {
+  font-size: 13px;
+  color: var(--text-hint);
+  margin-top: 4px;
+}
+
+.transactions-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.transactions-card h3 {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.no-transactions {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-hint);
+}
+
+.transaction-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.transaction-item.clickable {
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 12px 8px;
+  margin: 0 -8px;
+}
+
+.transaction-item.clickable:hover {
+  background: #f9f9f9;
+}
+
+.tx-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.tx-type {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.tx-desc {
+  font-size: 12px;
+  color: var(--text-hint);
+}
+
+.tx-right {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.tx-amount {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.tx-amount.positive { color: #52c41a; }
+.tx-amount.negative { color: #ff4d4f; }
+
+.tx-time {
+  font-size: 12px;
+  color: var(--text-hint);
+}
+
+.topup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.topup-modal {
+  background: #fff;
+  border-radius: 16px;
+  width: 400px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.topup-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.topup-modal-header h3 {
+  font-size: 18px;
+}
+
+.topup-close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--text-hint);
+}
+
+.topup-body {
+  padding: 24px;
+  text-align: center;
+}
+
+.topup-tip {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+.qr-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.qr-image {
+  width: 220px;
+  height: 220px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.topup-next-btn {
+  width: 100%;
+  padding: 12px;
+  background: #07c160;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.topup-input-wrapper {
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--primary);
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+}
+
+.topup-currency {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text);
+  margin-right: 8px;
+}
+
+.topup-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.topup-quick-amounts {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.quick-amount-btn {
+  padding: 6px 16px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.quick-amount-btn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.topup-confirm-btn {
+  width: 100%;
+  padding: 12px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.topup-back-btn {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  color: var(--text-hint);
+  font-size: 14px;
+  cursor: pointer;
+}
