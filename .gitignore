@@ -2,7 +2,7 @@
 高德.md
 .env
 
-# LaTeX编译产物
+# LaTeX
 *.aux
 *.log
 *.out
@@ -10,6 +10,11 @@
 *.synctex.gz
 *.fls
 *.fdb_latexmk
+说明文档.tex
+
+# 文档源文件
+需求.md
+计划.md
 
 # 系统文件
 .DS_Store
@@ -17,6 +22,7 @@
 # Node modules
 node_modules/
 
-# 编译产物
-realtime-scout/node_modules/
+# 其他
 realtime-scout/apps/server/uploads/
+图标/
+实时探路/

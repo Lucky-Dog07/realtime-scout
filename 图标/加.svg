@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 256 256" fill="none">
-  <circle cx="128" cy="128" r="82" stroke="#11172A" stroke-width="14"/>
-  <path d="M128 92V164" stroke="#11172A" stroke-width="14" stroke-linecap="round"/>
-  <path d="M92 128H164" stroke="#11172A" stroke-width="14" stroke-linecap="round"/>
-</svg>
